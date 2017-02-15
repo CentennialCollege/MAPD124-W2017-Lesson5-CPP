@@ -7,9 +7,19 @@
 //
 
 #include <iostream>
+#include "Person.h"
+
+using namespace std;
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    
+    Person people[3];
+    
+        
+    people[0].name = "Tom";
+    people[0].age = 25;
+    
+    people[0].SaysHello();
+    
     return 0;
 }
